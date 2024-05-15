@@ -1,0 +1,42 @@
+* {
+  color: wheat;
+}
+
+body {
+  background-image: url(https://img.freepik.com/free-photo/red-light-round-podium-black-background-mock-up_43614-950.jpg?w=1060&t=st=1715786402~exp=1715787002~hmac=b73ba0a13becb9632b4424d1a971705f4fab6bbffa7887ecdc2f1c53ce176b98);
+  background-size: cover;
+}
+
+.list {
+  list-style: none;
+}
+.list li,
+.links {
+  border: black solid 1px;
+  width: fit-content;
+  padding: 5px;
+  margin: 10px;
+}
+
+.links {
+  display: inline;
+}
+
+.list li:hover,
+.links:hover {
+  background-color: purple;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3 {
+  text-shadow: 1px 1px 0.7px purple;
+}
+
+p {
+  width: 70%;
+}
